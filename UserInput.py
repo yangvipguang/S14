@@ -29,4 +29,14 @@ Age:{_age}
 Job:{_job}
 Salary:{_salary}
 """.format(_name=name,_job=job,_age=age,_salary=salary)
-print(info)
+#print(info)
+
+###不常用
+info4 = """
+-------------info4 of {0}------
+Name:{0}
+Age:{1}
+Job:{2}
+Salary:{3}
+""".format(name,job,age,salary)
+print(info4)
