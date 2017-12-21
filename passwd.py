@@ -1,7 +1,15 @@
 # Author: yangvipguang
 import getpass
 
-username = input("Username:")
-password = getpass.getpass("password:")
+_username = "yangguang"
+_password = 123456
 
-print(username , password)
+username = input("Username:")
+# password = getpass.getpass("password:")
+password = input("password:")
+print(username, password)
+
+if username == _username and password == _password:
+    print("Welcome User {name} to login".format(name=username))
+else:
+    print("Invalid User or Password")
